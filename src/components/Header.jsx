@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Header = ({gameOver}) => {
+
+  const reset= ()=>{
+    window.location.reload();
+   }
+
   return (
     <div className='header'>
         <div className='header-text'>

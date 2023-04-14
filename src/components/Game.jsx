@@ -7,10 +7,7 @@ const Game = ({gameOver,setGameOver,userChoice,computerChoice }) => {
     const [computerPoints,setComputerPoints]=useState(0)
     const [userPoints,setUserPoints]=useState(0)
 
-  const reset= ()=>{
-    window.location.reload();
-   }
-
+  
 
  useEffect(()=>{
      if(userPoints <=4 && computerPoints <=4){
