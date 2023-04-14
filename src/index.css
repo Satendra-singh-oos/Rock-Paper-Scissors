@@ -1,0 +1,147 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* background: #e0e5ec; */
+}
+
+
+.header{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+  
+}
+
+
+.header-text > span {
+  font-family: 'Dancing Script';
+  margin-right: 20px;
+  font-size: 50px;
+  font-weight:400;
+  color:#242B2E;
+  
+}
+
+.score-box{
+  display: flex;
+  font-size: 20px;
+  font-weight:400;
+  
+}
+.score-box > span {
+  margin: 10px;
+}
+.score-box >div {
+  margin: 10px;
+}
+
+
+
+.choice-img{
+
+   display: flex;
+   justify-content: center;
+   
+}
+
+.choice-img > .choice-user{
+  padding-left: 10px;
+  margin-top: 30px;
+  width: 270px;
+  height: 270px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+
+}
+
+.choice-img > .choice-computer{
+  margin-top: 30px;
+  margin-left: 100px;
+  padding-left: 20px;
+  width: 270px;
+  height: 270px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.computer-hand {
+  width: 250px;
+  mix-blend-mode: multiply;
+  background: none;
+}
+
+.user-hand {
+  width: 250px;
+  transform: rotateY(180deg);
+  mix-blend-mode: multiply;
+  background: none;
+}
+
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.button {
+  border: none;
+  width: 150px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background: #b621fe;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 20px;
+  color: #FFFF;
+  
+}
+.button:hover{
+  background-color: #e0e5ec;
+  transition: all 0.3s ease;
+  background-color: #663dff;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+.score-box{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* .score > span {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+
+} */
+
+.result{
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  justify-content: space-around;
+
+}
+.result-turn{
+  color: #758283
+}
+
